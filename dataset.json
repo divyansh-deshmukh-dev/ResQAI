@@ -1,0 +1,227 @@
+{
+  "dataset_info": {
+    "name": "India Disaster Management Chatbot Dataset",
+    "version": "1.0",
+    "last_updated": "2024",
+    "source": "National Disaster Management Authority (NDMA), Government of India",
+    "authority": "Disaster Management Act, 2005 & Amendment Bill 2024"
+  },
+
+  "emergency_contacts": {
+    "national_numbers": [
+      {
+        "service": "National Emergency Number",
+        "number": "112",
+        "description": "Single emergency helpline for Police, Ambulance, and Fire services. Works 24/7 across all states/UTs. Can be accessed via phone call, SMS, email, panic button, and 112 India mobile app.",
+        "availability": "24/7",
+        "coverage": "Pan India"
+      },
+      {
+        "service": "Police",
+        "number": "100",
+        "description": "Police emergency services (calls redirected to 112)",
+        "availability": "24/7",
+        "coverage": "Pan India"
+      },
+      {
+        "service": "Fire Services",
+        "number": "101",
+        "description": "Fire brigade emergency services",
+        "availability": "24/7",
+        "coverage": "Pan India"
+      },
+      {
+        "service": "Ambulance",
+        "number": "102",
+        "description": "Emergency medical services and ambulance",
+        "availability": "24/7",
+        "coverage": "Pan India"
+      },
+      {
+        "service": "Disaster Management (NDMA)",
+        "number": "1078",
+        "alternate_numbers": ["011-26701700", "011-26701728"],
+        "description": "National Disaster Management Authority helpline",
+        "availability": "24/7",
+        "coverage": "Pan India"
+      },
+      {
+        "service": "NDRF Headquarters (Earthquake/Flood/Disaster)",
+        "number": "011-24363260",
+        "alternate_numbers": ["9711077372"],
+        "description": "National Disaster Response Force for earthquakes, floods, and major disasters",
+        "availability": "24/7",
+        "coverage": "Pan India"
+      }
+    ]
+  },
+
+  "disaster_safety_guidelines": {
+    "earthquake": {
+      "before": [
+        {
+          "step": "Prepare an emergency kit",
+          "details": "Include first aid supplies, emergency food and water (for at least 3 days), flashlight, battery-powered radio, extra batteries, important documents in waterproof container"
+        },
+        {
+          "step": "Practice DROP, COVER, and HOLD ON drills",
+          "details": "Drop to ground, take cover under sturdy furniture, and hold on until shaking stops"
+        }
+      ],
+      "during": [
+        {
+          "step": "If indoors: DROP, COVER, HOLD ON",
+          "details": "Drop to ground immediately, take cover under sturdy furniture, hold on and protect your head and neck. Stay under cover until shaking stops"
+        },
+        {
+          "step": "Stay away from hazards",
+          "details": "Avoid windows, glass, mirrors, hanging objects, exterior walls, and anything that could fall"
+        }
+      ],
+      "after": [
+        {
+          "step": "Check for injuries",
+          "details": "Provide first aid as needed. Do not move seriously injured persons unless in immediate danger"
+        },
+        {
+          "step": "Be prepared for aftershocks",
+          "details": "Drop, Cover, Hold On during aftershocks. Aftershocks can cause additional damage"
+        }
+      ]
+    },
+    "floods": {
+      "before": [
+        {
+          "step": "Stay informed about flood risks",
+          "details": "Monitor weather forecasts, flood warnings from IMD and CWC. Know if you're in flood-prone area"
+        },
+        {
+          "step": "Know evacuation routes",
+          "details": "Identify safe routes to higher ground, know location of emergency shelters"
+        }
+      ],
+      "during": [
+        {
+          "step": "Evacuate immediately if told",
+          "details": "Follow evacuation orders from authorities without delay"
+        },
+        {
+          "step": "Never walk through flowing water",
+          "details": "6 inches of moving water can knock you down. If must walk, use stick to check depth"
+        }
+      ],
+      "after": [
+        {
+          "step": "Return home only when safe",
+          "details": "Wait for authorities to declare area safe before returning"
+        },
+        {
+          "step": "Boil or purify water",
+          "details": "Use only bottled, boiled, or treated water until supply declared safe"
+        }
+      ]
+    },
+    "cyclone": {
+      "before": [
+        {
+          "step": "Listen to IMD cyclone warnings",
+          "details": "Monitor weather forecasts, understand warning colors (Yellow, Orange, Red)"
+        },
+        {
+          "step": "Secure your home",
+          "details": "Board up windows, secure loose outdoor items, trim trees close to home"
+        }
+      ],
+      "during": [
+        {
+          "step": "Stay indoors",
+          "details": "Remain inside strong building away from windows"
+        },
+        {
+          "step": "Beware of eye of cyclone",
+          "details": "Do not go outside during calm period - violent winds will resume"
+        }
+      ],
+      "after": [
+        {
+          "step": "Listen for all-clear signal",
+          "details": "Stay inside until authorities announce it's safe"
+        },
+        {
+          "step": "Be cautious of damaged structures",
+          "details": "Stay away from damaged buildings and power lines"
+        }
+      ]
+    },
+    "fire": {
+      "before": [
+        {
+          "step": "Install smoke alarms",
+          "details": "Place on every level of home, test monthly, change batteries annually"
+        },
+        {
+          "step": "Plan escape routes",
+          "details": "Know two ways out of every room, practice fire drills regularly"
+        }
+      ],
+      "during": [
+        {
+          "step": "Alert others immediately",
+          "details": "Shout 'Fire! Fire!' to warn everyone"
+        },
+        {
+          "step": "Get out fast",
+          "details": "Use stairs, never elevator. Crawl low under smoke"
+        }
+      ],
+      "after": [
+        {
+          "step": "Don't enter until cleared",
+          "details": "Wait for fire department to declare building safe"
+        },
+        {
+          "step": "Document damage",
+          "details": "Take photos for insurance before cleanup"
+        }
+      ]
+    },
+    "heatwave": {
+      "during": [
+        {
+          "step": "Stay hydrated",
+          "details": "Drink water frequently even if not thirsty. Use ORS, lassi, lemon water"
+        },
+        {
+          "step": "Avoid sun exposure",
+          "details": "Stay indoors during peak hours (12 PM - 3 PM)"
+        },
+        {
+          "step": "Recognize heat stroke emergency",
+          "details": "High fever (>104°F), confusion, loss of consciousness - CALL 102/108 IMMEDIATELY"
+        }
+      ]
+    }
+  },
+
+  "basic_first_aid": {
+    "disclaimer": "This is basic information only. Always call 102/108 for medical emergencies. If in doubt, seek professional medical help immediately.",
+    "common_emergencies": [
+      {
+        "situation": "Bleeding",
+        "steps": [
+          "Apply direct pressure with clean cloth",
+          "Elevate injured area above heart if possible",
+          "If bleeding doesn't stop in 10 minutes or is severe, call 102/108"
+        ]
+      },
+      {
+        "situation": "Heat Stroke",
+        "steps": [
+          "CALL 102/108 IMMEDIATELY - this is life-threatening",
+          "Move to cool place",
+          "Cool with water, ice packs on neck, armpits, groin"
+        ]
+      }
+    ]
+  }
+}

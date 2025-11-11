@@ -1,0 +1,1642 @@
+{
+  "data": {
+    "dataset_info": {
+      "name": "India Disaster Management Chatbot Dataset",
+      "version": "1.0",
+      "last_updated": "2024",
+      "source": "National Disaster Management Authority (NDMA), Government of India",
+      "authority": "Disaster Management Act, 2005 & Amendment Bill 2024"
+    },
+    "emergency_contacts": {
+      "national_numbers": [
+        {
+          "service": "National Emergency Number",
+          "number": "112",
+          "description": "Single emergency helpline for Police, Ambulance, and Fire services. Works 24/7 across all states/UTs. Can be accessed via phone call, SMS, email, panic button, and 112 India mobile app.",
+          "availability": "24/7",
+          "coverage": "Pan India"
+        },
+        {
+          "service": "Police",
+          "number": "100",
+          "description": "Police emergency services (calls redirected to 112)",
+          "availability": "24/7",
+          "coverage": "Pan India"
+        },
+        {
+          "service": "Fire Services",
+          "number": "101",
+          "description": "Fire brigade emergency services",
+          "availability": "24/7",
+          "coverage": "Pan India"
+        },
+        {
+          "service": "Ambulance",
+          "number": "102",
+          "description": "Emergency medical services and ambulance",
+          "availability": "24/7",
+          "coverage": "Pan India"
+        },
+        {
+          "service": "Disaster Management (NDMA)",
+          "number": "1078",
+          "alternate_numbers": [
+            "011-26701700",
+            "011-26701728"
+          ],
+          "description": "National Disaster Management Authority helpline",
+          "availability": "24/7",
+          "coverage": "Pan India"
+        },
+        {
+          "service": "NDRF Headquarters (Earthquake/Flood/Disaster)",
+          "number": "011-24363260",
+          "alternate_numbers": [
+            "9711077372"
+          ],
+          "description": "National Disaster Response Force for earthquakes, floods, and major disasters",
+          "availability": "24/7",
+          "coverage": "Pan India"
+        }
+      ]
+    },
+    "disaster_safety_guidelines": {
+      "earthquake": {
+        "before": [
+          {
+            "step": "Prepare an emergency kit",
+            "details": "Include first aid supplies, emergency food and water (for at least 3 days), flashlight, battery-powered radio, extra batteries, important documents in waterproof container"
+          },
+          {
+            "step": "Practice DROP, COVER, and HOLD ON drills",
+            "details": "Drop to ground, take cover under sturdy furniture, and hold on until shaking stops"
+          }
+        ],
+        "during": [
+          {
+            "step": "If indoors: DROP, COVER, HOLD ON",
+            "details": "Drop to ground immediately, take cover under sturdy furniture, hold on and protect your head and neck. Stay under cover until shaking stops"
+          },
+          {
+            "step": "Stay away from hazards",
+            "details": "Avoid windows, glass, mirrors, hanging objects, exterior walls, and anything that could fall"
+          }
+        ],
+        "after": [
+          {
+            "step": "Check for injuries",
+            "details": "Provide first aid as needed. Do not move seriously injured persons unless in immediate danger"
+          },
+          {
+            "step": "Be prepared for aftershocks",
+            "details": "Drop, Cover, Hold On during aftershocks. Aftershocks can cause additional damage"
+          }
+        ]
+      },
+      "floods": {
+        "before": [
+          {
+            "step": "Stay informed about flood risks",
+            "details": "Monitor weather forecasts, flood warnings from IMD and CWC. Know if you're in flood-prone area"
+          },
+          {
+            "step": "Know evacuation routes",
+            "details": "Identify safe routes to higher ground, know location of emergency shelters"
+          }
+        ],
+        "during": [
+          {
+            "step": "Evacuate immediately if told",
+            "details": "Follow evacuation orders from authorities without delay"
+          },
+          {
+            "step": "Never walk through flowing water",
+            "details": "6 inches of moving water can knock you down. If must walk, use stick to check depth"
+          }
+        ],
+        "after": [
+          {
+            "step": "Return home only when safe",
+            "details": "Wait for authorities to declare area safe before returning"
+          },
+          {
+            "step": "Boil or purify water",
+            "details": "Use only bottled, boiled, or treated water until supply declared safe"
+          }
+        ]
+      },
+      "cyclone": {
+        "before": [
+          {
+            "step": "Listen to IMD cyclone warnings",
+            "details": "Monitor weather forecasts, understand warning colors (Yellow, Orange, Red)"
+          },
+          {
+            "step": "Secure your home",
+            "details": "Board up windows, secure loose outdoor items, trim trees close to home"
+          }
+        ],
+        "during": [
+          {
+            "step": "Stay indoors",
+            "details": "Remain inside strong building away from windows"
+          },
+          {
+            "step": "Beware of eye of cyclone",
+            "details": "Do not go outside during calm period - violent winds will resume"
+          }
+        ],
+        "after": [
+          {
+            "step": "Listen for all-clear signal",
+            "details": "Stay inside until authorities announce it's safe"
+          },
+          {
+            "step": "Be cautious of damaged structures",
+            "details": "Stay away from damaged buildings and power lines"
+          }
+        ]
+      },
+      "fire": {
+        "before": [
+          {
+            "step": "Install smoke alarms",
+            "details": "Place on every level of home, test monthly, change batteries annually"
+          },
+          {
+            "step": "Plan escape routes",
+            "details": "Know two ways out of every room, practice fire drills regularly"
+          }
+        ],
+        "during": [
+          {
+            "step": "Alert others immediately",
+            "details": "Shout 'Fire! Fire!' to warn everyone"
+          },
+          {
+            "step": "Get out fast",
+            "details": "Use stairs, never elevator. Crawl low under smoke"
+          }
+        ],
+        "after": [
+          {
+            "step": "Don't enter until cleared",
+            "details": "Wait for fire department to declare building safe"
+          },
+          {
+            "step": "Document damage",
+            "details": "Take photos for insurance before cleanup"
+          }
+        ]
+      },
+      "heatwave": {
+        "during": [
+          {
+            "step": "Stay hydrated",
+            "details": "Drink water frequently even if not thirsty. Use ORS, lassi, lemon water"
+          },
+          {
+            "step": "Avoid sun exposure",
+            "details": "Stay indoors during peak hours (12 PM - 3 PM)"
+          },
+          {
+            "step": "Recognize heat stroke emergency",
+            "details": "High fever (>104\u00b0F), confusion, loss of consciousness - CALL 102/108 IMMEDIATELY"
+          }
+        ]
+      }
+    },
+    "basic_first_aid": {
+      "disclaimer": "This is basic information only. Always call 102/108 for medical emergencies. If in doubt, seek professional medical help immediately.",
+      "common_emergencies": [
+        {
+          "situation": "Bleeding",
+          "steps": [
+            "Apply direct pressure with clean cloth",
+            "Elevate injured area above heart if possible",
+            "If bleeding doesn't stop in 10 minutes or is severe, call 102/108"
+          ]
+        },
+        {
+          "situation": "Heat Stroke",
+          "steps": [
+            "CALL 102/108 IMMEDIATELY - this is life-threatening",
+            "Move to cool place",
+            "Cool with water, ice packs on neck, armpits, groin"
+          ]
+        }
+      ]
+    }
+  },
+  "keywords": {
+    "national": [
+      0,
+      4,
+      5
+    ],
+    "emergency": [
+      0,
+      0,
+      1,
+      2,
+      3,
+      6,
+      6,
+      13,
+      32
+    ],
+    "number": [
+      0
+    ],
+    "single": [
+      0
+    ],
+    "helpline": [
+      0,
+      4
+    ],
+    "for": [
+      0,
+      5,
+      10,
+      11,
+      16,
+      22,
+      28,
+      29
+    ],
+    "police,": [
+      0
+    ],
+    "ambulance,": [
+      0
+    ],
+    "and": [
+      0,
+      0,
+      3,
+      5,
+      6,
+      7,
+      7,
+      8,
+      8,
+      9,
+      12,
+      23
+    ],
+    "fire": [
+      0,
+      2,
+      2,
+      24,
+      25,
+      25,
+      26,
+      27,
+      28,
+      28,
+      29
+    ],
+    "services.": [
+      0
+    ],
+    "works": [
+      0
+    ],
+    "24/7": [
+      0
+    ],
+    "across": [
+      0
+    ],
+    "all": [
+      0
+    ],
+    "states/uts.": [
+      0
+    ],
+    "can": [
+      0,
+      11,
+      15
+    ],
+    "accessed": [
+      0
+    ],
+    "via": [
+      0
+    ],
+    "phone": [
+      0
+    ],
+    "call,": [
+      0
+    ],
+    "sms,": [
+      0
+    ],
+    "email,": [
+      0
+    ],
+    "panic": [
+      0
+    ],
+    "button,": [
+      0
+    ],
+    "112": [
+      0
+    ],
+    "india": [
+      0
+    ],
+    "mobile": [
+      0
+    ],
+    "app.": [
+      0
+    ],
+    "police": [
+      1,
+      1
+    ],
+    "services": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "(calls": [
+      1
+    ],
+    "redirected": [
+      1
+    ],
+    "112)": [
+      1
+    ],
+    "brigade": [
+      2
+    ],
+    "ambulance": [
+      3,
+      3
+    ],
+    "medical": [
+      3
+    ],
+    "disaster": [
+      4,
+      4,
+      5
+    ],
+    "management": [
+      4,
+      4
+    ],
+    "(ndma)": [
+      4
+    ],
+    "authority": [
+      4
+    ],
+    "ndrf": [
+      5
+    ],
+    "headquarters": [
+      5
+    ],
+    "(earthquake/flood/disaster)": [
+      5
+    ],
+    "response": [
+      5
+    ],
+    "force": [
+      5
+    ],
+    "earthquakes,": [
+      5
+    ],
+    "floods,": [
+      5
+    ],
+    "major": [
+      5
+    ],
+    "disasters": [
+      5
+    ],
+    "earthquake": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "before": [
+      6,
+      7,
+      12,
+      13,
+      16,
+      18,
+      19,
+      24,
+      25,
+      29
+    ],
+    "prepare": [
+      6
+    ],
+    "kit": [
+      6
+    ],
+    "include": [
+      6
+    ],
+    "first": [
+      6,
+      10
+    ],
+    "aid": [
+      6,
+      10
+    ],
+    "supplies,": [
+      6
+    ],
+    "food": [
+      6
+    ],
+    "water": [
+      6,
+      15,
+      15,
+      17,
+      17,
+      30,
+      30
+    ],
+    "(for": [
+      6
+    ],
+    "least": [
+      6
+    ],
+    "days),": [
+      6
+    ],
+    "flashlight,": [
+      6
+    ],
+    "battery-powered": [
+      6
+    ],
+    "radio,": [
+      6
+    ],
+    "extra": [
+      6
+    ],
+    "batteries,": [
+      6
+    ],
+    "important": [
+      6
+    ],
+    "documents": [
+      6
+    ],
+    "waterproof": [
+      6
+    ],
+    "container": [
+      6
+    ],
+    "practice": [
+      7,
+      25
+    ],
+    "drop,": [
+      7,
+      8,
+      11
+    ],
+    "cover,": [
+      7,
+      8,
+      11
+    ],
+    "hold": [
+      7,
+      7,
+      8,
+      8,
+      11
+    ],
+    "drills": [
+      7,
+      25
+    ],
+    "drop": [
+      7,
+      8
+    ],
+    "ground,": [
+      7,
+      13
+    ],
+    "take": [
+      7,
+      8,
+      29
+    ],
+    "cover": [
+      7,
+      8,
+      8
+    ],
+    "under": [
+      7,
+      8,
+      8,
+      27
+    ],
+    "sturdy": [
+      7,
+      8
+    ],
+    "furniture,": [
+      7,
+      8
+    ],
+    "until": [
+      7,
+      8,
+      17,
+      22,
+      28
+    ],
+    "shaking": [
+      7,
+      8
+    ],
+    "stops": [
+      7,
+      8
+    ],
+    "during": [
+      8,
+      9,
+      11,
+      14,
+      15,
+      20,
+      21,
+      21,
+      26,
+      27,
+      30,
+      31,
+      31,
+      32
+    ],
+    "indoors:": [
+      8
+    ],
+    "ground": [
+      8
+    ],
+    "immediately,": [
+      8
+    ],
+    "protect": [
+      8
+    ],
+    "your": [
+      8,
+      19
+    ],
+    "head": [
+      8
+    ],
+    "neck.": [
+      8
+    ],
+    "stay": [
+      8,
+      9,
+      12,
+      20,
+      22,
+      23,
+      30,
+      31
+    ],
+    "away": [
+      9,
+      20,
+      23
+    ],
+    "from": [
+      9,
+      12,
+      14,
+      20,
+      23
+    ],
+    "hazards": [
+      9
+    ],
+    "avoid": [
+      9,
+      31
+    ],
+    "windows,": [
+      9,
+      19
+    ],
+    "glass,": [
+      9
+    ],
+    "mirrors,": [
+      9
+    ],
+    "hanging": [
+      9
+    ],
+    "objects,": [
+      9
+    ],
+    "exterior": [
+      9
+    ],
+    "walls,": [
+      9
+    ],
+    "anything": [
+      9
+    ],
+    "that": [
+      9
+    ],
+    "could": [
+      9
+    ],
+    "fall": [
+      9
+    ],
+    "after": [
+      10,
+      11,
+      16,
+      17,
+      22,
+      23,
+      28,
+      29
+    ],
+    "check": [
+      10,
+      15
+    ],
+    "injuries": [
+      10
+    ],
+    "provide": [
+      10
+    ],
+    "needed.": [
+      10
+    ],
+    "not": [
+      10,
+      21,
+      30
+    ],
+    "move": [
+      10,
+      34
+    ],
+    "seriously": [
+      10
+    ],
+    "injured": [
+      10,
+      33
+    ],
+    "persons": [
+      10
+    ],
+    "unless": [
+      10
+    ],
+    "immediate": [
+      10
+    ],
+    "danger": [
+      10
+    ],
+    "prepared": [
+      11
+    ],
+    "aftershocks": [
+      11,
+      11
+    ],
+    "aftershocks.": [
+      11
+    ],
+    "cause": [
+      11
+    ],
+    "additional": [
+      11
+    ],
+    "damage": [
+      11,
+      29
+    ],
+    "floods": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "informed": [
+      12
+    ],
+    "about": [
+      12
+    ],
+    "flood": [
+      12,
+      12
+    ],
+    "risks": [
+      12
+    ],
+    "monitor": [
+      12,
+      18
+    ],
+    "weather": [
+      12,
+      18
+    ],
+    "forecasts,": [
+      12,
+      18
+    ],
+    "warnings": [
+      12,
+      18
+    ],
+    "imd": [
+      12,
+      18
+    ],
+    "cwc.": [
+      12
+    ],
+    "know": [
+      12,
+      13,
+      13,
+      25
+    ],
+    "you're": [
+      12
+    ],
+    "flood-prone": [
+      12
+    ],
+    "area": [
+      12,
+      16,
+      33
+    ],
+    "evacuation": [
+      13,
+      14
+    ],
+    "routes": [
+      13,
+      13,
+      25
+    ],
+    "identify": [
+      13
+    ],
+    "safe": [
+      13,
+      16,
+      16,
+      17,
+      22,
+      28
+    ],
+    "higher": [
+      13
+    ],
+    "location": [
+      13
+    ],
+    "shelters": [
+      13
+    ],
+    "evacuate": [
+      14
+    ],
+    "immediately": [
+      14,
+      26,
+      32,
+      34
+    ],
+    "told": [
+      14
+    ],
+    "follow": [
+      14
+    ],
+    "orders": [
+      14
+    ],
+    "authorities": [
+      14,
+      16,
+      22
+    ],
+    "without": [
+      14
+    ],
+    "delay": [
+      14
+    ],
+    "never": [
+      15,
+      27
+    ],
+    "walk": [
+      15
+    ],
+    "through": [
+      15
+    ],
+    "flowing": [
+      15
+    ],
+    "inches": [
+      15
+    ],
+    "moving": [
+      15
+    ],
+    "knock": [
+      15
+    ],
+    "you": [
+      15
+    ],
+    "down.": [
+      15
+    ],
+    "must": [
+      15
+    ],
+    "walk,": [
+      15
+    ],
+    "use": [
+      15,
+      17,
+      27,
+      30
+    ],
+    "stick": [
+      15
+    ],
+    "depth": [
+      15
+    ],
+    "return": [
+      16
+    ],
+    "home": [
+      16,
+      19,
+      19
+    ],
+    "only": [
+      16,
+      17
+    ],
+    "when": [
+      16
+    ],
+    "wait": [
+      16,
+      28
+    ],
+    "declare": [
+      16,
+      28
+    ],
+    "returning": [
+      16
+    ],
+    "boil": [
+      17
+    ],
+    "purify": [
+      17
+    ],
+    "bottled,": [
+      17
+    ],
+    "boiled,": [
+      17
+    ],
+    "treated": [
+      17
+    ],
+    "supply": [
+      17
+    ],
+    "declared": [
+      17
+    ],
+    "cyclone": [
+      18,
+      18,
+      19,
+      20,
+      21,
+      21,
+      22,
+      23
+    ],
+    "listen": [
+      18,
+      22
+    ],
+    "understand": [
+      18
+    ],
+    "warning": [
+      18
+    ],
+    "colors": [
+      18
+    ],
+    "(yellow,": [
+      18
+    ],
+    "orange,": [
+      18
+    ],
+    "red)": [
+      18
+    ],
+    "secure": [
+      19,
+      19
+    ],
+    "board": [
+      19
+    ],
+    "loose": [
+      19
+    ],
+    "outdoor": [
+      19
+    ],
+    "items,": [
+      19
+    ],
+    "trim": [
+      19
+    ],
+    "trees": [
+      19
+    ],
+    "close": [
+      19
+    ],
+    "indoors": [
+      20,
+      31
+    ],
+    "remain": [
+      20
+    ],
+    "inside": [
+      20,
+      22
+    ],
+    "strong": [
+      20
+    ],
+    "building": [
+      20,
+      28
+    ],
+    "windows": [
+      20
+    ],
+    "beware": [
+      21
+    ],
+    "eye": [
+      21
+    ],
+    "outside": [
+      21
+    ],
+    "calm": [
+      21
+    ],
+    "period": [
+      21
+    ],
+    "violent": [
+      21
+    ],
+    "winds": [
+      21
+    ],
+    "will": [
+      21
+    ],
+    "resume": [
+      21
+    ],
+    "all-clear": [
+      22
+    ],
+    "signal": [
+      22
+    ],
+    "announce": [
+      22
+    ],
+    "it's": [
+      22
+    ],
+    "cautious": [
+      23
+    ],
+    "damaged": [
+      23,
+      23
+    ],
+    "structures": [
+      23
+    ],
+    "buildings": [
+      23
+    ],
+    "power": [
+      23
+    ],
+    "lines": [
+      23
+    ],
+    "install": [
+      24
+    ],
+    "smoke": [
+      24,
+      27
+    ],
+    "alarms": [
+      24
+    ],
+    "place": [
+      24,
+      34
+    ],
+    "every": [
+      24,
+      25
+    ],
+    "level": [
+      24
+    ],
+    "home,": [
+      24
+    ],
+    "test": [
+      24
+    ],
+    "monthly,": [
+      24
+    ],
+    "change": [
+      24
+    ],
+    "batteries": [
+      24
+    ],
+    "annually": [
+      24
+    ],
+    "plan": [
+      25
+    ],
+    "escape": [
+      25
+    ],
+    "two": [
+      25
+    ],
+    "ways": [
+      25
+    ],
+    "out": [
+      25,
+      27
+    ],
+    "room,": [
+      25
+    ],
+    "regularly": [
+      25
+    ],
+    "alert": [
+      26
+    ],
+    "others": [
+      26
+    ],
+    "shout": [
+      26
+    ],
+    "'fire!": [
+      26
+    ],
+    "fire!'": [
+      26
+    ],
+    "warn": [
+      26
+    ],
+    "everyone": [
+      26
+    ],
+    "get": [
+      27
+    ],
+    "fast": [
+      27
+    ],
+    "stairs,": [
+      27
+    ],
+    "elevator.": [
+      27
+    ],
+    "crawl": [
+      27
+    ],
+    "low": [
+      27
+    ],
+    "don't": [
+      28
+    ],
+    "enter": [
+      28
+    ],
+    "cleared": [
+      28
+    ],
+    "department": [
+      28
+    ],
+    "document": [
+      29
+    ],
+    "photos": [
+      29
+    ],
+    "insurance": [
+      29
+    ],
+    "cleanup": [
+      29
+    ],
+    "heatwave": [
+      30,
+      31,
+      32
+    ],
+    "hydrated": [
+      30
+    ],
+    "drink": [
+      30
+    ],
+    "frequently": [
+      30
+    ],
+    "even": [
+      30
+    ],
+    "thirsty.": [
+      30
+    ],
+    "ors,": [
+      30
+    ],
+    "lassi,": [
+      30
+    ],
+    "lemon": [
+      30
+    ],
+    "sun": [
+      31
+    ],
+    "exposure": [
+      31
+    ],
+    "peak": [
+      31
+    ],
+    "hours": [
+      31
+    ],
+    "(12": [
+      31
+    ],
+    "pm)": [
+      31
+    ],
+    "recognize": [
+      32
+    ],
+    "heat": [
+      32,
+      34
+    ],
+    "stroke": [
+      32,
+      34
+    ],
+    "high": [
+      32
+    ],
+    "fever": [
+      32
+    ],
+    "(>104\u00b0f),": [
+      32
+    ],
+    "confusion,": [
+      32
+    ],
+    "loss": [
+      32
+    ],
+    "consciousness": [
+      32
+    ],
+    "call": [
+      32,
+      33,
+      34
+    ],
+    "102/108": [
+      32,
+      33,
+      34
+    ],
+    "bleeding": [
+      33,
+      33
+    ],
+    "apply": [
+      33
+    ],
+    "direct": [
+      33
+    ],
+    "pressure": [
+      33
+    ],
+    "with": [
+      33,
+      34
+    ],
+    "clean": [
+      33
+    ],
+    "cloth": [
+      33
+    ],
+    "elevate": [
+      33
+    ],
+    "above": [
+      33
+    ],
+    "heart": [
+      33
+    ],
+    "possible": [
+      33
+    ],
+    "doesn't": [
+      33
+    ],
+    "stop": [
+      33
+    ],
+    "minutes": [
+      33
+    ],
+    "severe,": [
+      33
+    ],
+    "this": [
+      34
+    ],
+    "life-threatening": [
+      34
+    ],
+    "cool": [
+      34,
+      34
+    ],
+    "water,": [
+      34
+    ],
+    "ice": [
+      34
+    ],
+    "packs": [
+      34
+    ],
+    "neck,": [
+      34
+    ],
+    "armpits,": [
+      34
+    ],
+    "groin": [
+      34
+    ]
+  },
+  "entries": [
+    {
+      "type": "emergency_contact",
+      "service": "National Emergency Number",
+      "number": "112",
+      "description": "Single emergency helpline for Police, Ambulance, and Fire services. Works 24/7 across all states/UTs. Can be accessed via phone call, SMS, email, panic button, and 112 India mobile app."
+    },
+    {
+      "type": "emergency_contact",
+      "service": "Police",
+      "number": "100",
+      "description": "Police emergency services (calls redirected to 112)"
+    },
+    {
+      "type": "emergency_contact",
+      "service": "Fire Services",
+      "number": "101",
+      "description": "Fire brigade emergency services"
+    },
+    {
+      "type": "emergency_contact",
+      "service": "Ambulance",
+      "number": "102",
+      "description": "Emergency medical services and ambulance"
+    },
+    {
+      "type": "emergency_contact",
+      "service": "Disaster Management (NDMA)",
+      "number": "1078",
+      "description": "National Disaster Management Authority helpline"
+    },
+    {
+      "type": "emergency_contact",
+      "service": "NDRF Headquarters (Earthquake/Flood/Disaster)",
+      "number": "011-24363260",
+      "description": "National Disaster Response Force for earthquakes, floods, and major disasters"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "earthquake",
+      "phase": "before",
+      "step": "Prepare an emergency kit",
+      "details": "Include first aid supplies, emergency food and water (for at least 3 days), flashlight, battery-powered radio, extra batteries, important documents in waterproof container"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "earthquake",
+      "phase": "before",
+      "step": "Practice DROP, COVER, and HOLD ON drills",
+      "details": "Drop to ground, take cover under sturdy furniture, and hold on until shaking stops"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "earthquake",
+      "phase": "during",
+      "step": "If indoors: DROP, COVER, HOLD ON",
+      "details": "Drop to ground immediately, take cover under sturdy furniture, hold on and protect your head and neck. Stay under cover until shaking stops"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "earthquake",
+      "phase": "during",
+      "step": "Stay away from hazards",
+      "details": "Avoid windows, glass, mirrors, hanging objects, exterior walls, and anything that could fall"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "earthquake",
+      "phase": "after",
+      "step": "Check for injuries",
+      "details": "Provide first aid as needed. Do not move seriously injured persons unless in immediate danger"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "earthquake",
+      "phase": "after",
+      "step": "Be prepared for aftershocks",
+      "details": "Drop, Cover, Hold On during aftershocks. Aftershocks can cause additional damage"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "floods",
+      "phase": "before",
+      "step": "Stay informed about flood risks",
+      "details": "Monitor weather forecasts, flood warnings from IMD and CWC. Know if you're in flood-prone area"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "floods",
+      "phase": "before",
+      "step": "Know evacuation routes",
+      "details": "Identify safe routes to higher ground, know location of emergency shelters"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "floods",
+      "phase": "during",
+      "step": "Evacuate immediately if told",
+      "details": "Follow evacuation orders from authorities without delay"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "floods",
+      "phase": "during",
+      "step": "Never walk through flowing water",
+      "details": "6 inches of moving water can knock you down. If must walk, use stick to check depth"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "floods",
+      "phase": "after",
+      "step": "Return home only when safe",
+      "details": "Wait for authorities to declare area safe before returning"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "floods",
+      "phase": "after",
+      "step": "Boil or purify water",
+      "details": "Use only bottled, boiled, or treated water until supply declared safe"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "cyclone",
+      "phase": "before",
+      "step": "Listen to IMD cyclone warnings",
+      "details": "Monitor weather forecasts, understand warning colors (Yellow, Orange, Red)"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "cyclone",
+      "phase": "before",
+      "step": "Secure your home",
+      "details": "Board up windows, secure loose outdoor items, trim trees close to home"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "cyclone",
+      "phase": "during",
+      "step": "Stay indoors",
+      "details": "Remain inside strong building away from windows"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "cyclone",
+      "phase": "during",
+      "step": "Beware of eye of cyclone",
+      "details": "Do not go outside during calm period - violent winds will resume"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "cyclone",
+      "phase": "after",
+      "step": "Listen for all-clear signal",
+      "details": "Stay inside until authorities announce it's safe"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "cyclone",
+      "phase": "after",
+      "step": "Be cautious of damaged structures",
+      "details": "Stay away from damaged buildings and power lines"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "fire",
+      "phase": "before",
+      "step": "Install smoke alarms",
+      "details": "Place on every level of home, test monthly, change batteries annually"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "fire",
+      "phase": "before",
+      "step": "Plan escape routes",
+      "details": "Know two ways out of every room, practice fire drills regularly"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "fire",
+      "phase": "during",
+      "step": "Alert others immediately",
+      "details": "Shout 'Fire! Fire!' to warn everyone"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "fire",
+      "phase": "during",
+      "step": "Get out fast",
+      "details": "Use stairs, never elevator. Crawl low under smoke"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "fire",
+      "phase": "after",
+      "step": "Don't enter until cleared",
+      "details": "Wait for fire department to declare building safe"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "fire",
+      "phase": "after",
+      "step": "Document damage",
+      "details": "Take photos for insurance before cleanup"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "heatwave",
+      "phase": "during",
+      "step": "Stay hydrated",
+      "details": "Drink water frequently even if not thirsty. Use ORS, lassi, lemon water"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "heatwave",
+      "phase": "during",
+      "step": "Avoid sun exposure",
+      "details": "Stay indoors during peak hours (12 PM - 3 PM)"
+    },
+    {
+      "type": "safety_guideline",
+      "disaster": "heatwave",
+      "phase": "during",
+      "step": "Recognize heat stroke emergency",
+      "details": "High fever (>104\u00b0F), confusion, loss of consciousness - CALL 102/108 IMMEDIATELY"
+    },
+    {
+      "type": "first_aid",
+      "situation": "Bleeding",
+      "steps": [
+        "Apply direct pressure with clean cloth",
+        "Elevate injured area above heart if possible",
+        "If bleeding doesn't stop in 10 minutes or is severe, call 102/108"
+      ]
+    },
+    {
+      "type": "first_aid",
+      "situation": "Heat Stroke",
+      "steps": [
+        "CALL 102/108 IMMEDIATELY - this is life-threatening",
+        "Move to cool place",
+        "Cool with water, ice packs on neck, armpits, groin"
+      ]
+    }
+  ]
+}
