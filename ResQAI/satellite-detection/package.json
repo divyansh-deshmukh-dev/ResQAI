@@ -1,0 +1,22 @@
+{
+  "name": "satellite-detection",
+  "version": "1.0.0",
+  "description": "Satellite fire detection module for ResqAI",
+  "main": "SatelliteDetection.tsx",
+  "dependencies": {
+    "@iconify/icons-mdi": "^1.2.48",
+    "@iconify/react": "^6.0.2",
+    "google-map-react": "^2.2.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}

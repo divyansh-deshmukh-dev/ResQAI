@@ -1,0 +1,80 @@
+body, html, #root, .satellite-detection {
+  margin: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f6fa;
+}
+
+.header {
+  background-color: #e74c3c;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #e74c3c;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.error-message {
+  text-align: center;
+  background: #ffcccc;
+  color: #b30000;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.location-info {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  width: 260px;
+  z-index: 2000;
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.map-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  z-index: 2000;
+}
